@@ -1,0 +1,560 @@
+{
+    "quiz": {
+        "questions": [
+            {
+                "id": 1,
+                "text": "¿Cuál es tu color favorito?",
+                "options": [
+                    {
+                        "text": "Rojo",
+                        "nextQuestionId": 2
+                    },
+                    {
+                        "text": "Azul",
+                        "nextQuestionId": 3
+                    },
+                    {
+                        "text": "Verde",
+                        "nextQuestionId": 4
+                    },
+                    {
+                        "text": "Amarillo",
+                        "nextQuestionId": 5
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "¿Te gusta la aventura?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": 6
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": 7
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "¿Prefieres el mar o la montaña?",
+                "options": [
+                    {
+                        "text": "Mar",
+                        "nextQuestionId": 8
+                    },
+                    {
+                        "text": "Montaña",
+                        "nextQuestionId": 9
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "¿Te gusta el arte?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": 10
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": 11
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "¿Te gusta la ciencia?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": 12
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": 13
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "¿Cuál es tu deporte favorito?",
+                "options": [
+                    {
+                        "text": "Fútbol",
+                        "nextQuestionId": 14
+                    },
+                    {
+                        "text": "Baloncesto",
+                        "nextQuestionId": 15
+                    },
+                    {
+                        "text": "Tenis",
+                        "nextQuestionId": 16
+                    },
+                    {
+                        "text": "Natación",
+                        "nextQuestionId": 17
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "¿Prefieres leer o ver películas?",
+                "options": [
+                    {
+                        "text": "Leer",
+                        "nextQuestionId": 18
+                    },
+                    {
+                        "text": "Ver películas",
+                        "nextQuestionId": 19
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "¿Te gusta nadar?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": 20
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": 21
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "¿Te gusta escalar?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": 22
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": 23
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "¿Cuál es tu forma de arte favorita?",
+                "options": [
+                    {
+                        "text": "Pintura",
+                        "nextQuestionId": 24
+                    },
+                    {
+                        "text": "Escultura",
+                        "nextQuestionId": 25
+                    },
+                    {
+                        "text": "Música",
+                        "nextQuestionId": 26
+                    },
+                    {
+                        "text": "Danza",
+                        "nextQuestionId": 27
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "text": "¿Te gusta cocinar?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": 28
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": 29
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "text": "¿Cuál es tu ciencia favorita?",
+                "options": [
+                    {
+                        "text": "Física",
+                        "nextQuestionId": 30
+                    },
+                    {
+                        "text": "Química",
+                        "nextQuestionId": 31
+                    },
+                    {
+                        "text": "Biología",
+                        "nextQuestionId": 32
+                    },
+                    {
+                        "text": "Astronomía",
+                        "nextQuestionId": 33
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "text": "¿Te gusta la historia?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": 34
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": 35
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "text": "¿Prefieres deportes en equipo o individuales?",
+                "options": [
+                    {
+                        "text": "Equipo",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Individuales",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "text": "¿Sigues la NBA?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "text": "¿Te gusta ver los Grand Slams?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "text": "¿Prefieres nadar en piscina o en el mar?",
+                "options": [
+                    {
+                        "text": "Piscina",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Mar",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "text": "¿Cuál es tu género literario favorito?",
+                "options": [
+                    {
+                        "text": "Ficción",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "No ficción",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Misterio",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Fantasía",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "text": "¿Cuál es tu género de película favorito?",
+                "options": [
+                    {
+                        "text": "Acción",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Comedia",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Drama",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Terror",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "text": "¿Prefieres nadar en la piscina o en el mar?",
+                "options": [
+                    {
+                        "text": "Piscina",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Mar",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "text": "¿Prefieres hacer actividades en la playa o en la montaña?",
+                "options": [
+                    {
+                        "text": "Playa",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Montaña",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "text": "¿Has escalado alguna vez?",
+                "options": [
+                    {
+                        "text": "Sí",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "No",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "text": "¿Prefieres caminar o hacer senderismo?",
+                "options": [
+                    {
+                        "text": "Caminar",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Senderismo",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "text": "¿Prefieres pintar al óleo o con acuarelas?",
+                "options": [
+                    {
+                        "text": "Óleo",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Acuarelas",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "text": "¿Prefieres esculpir en piedra o en arcilla?",
+                "options": [
+                    {
+                        "text": "Piedra",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Arcilla",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "text": "¿Cuál es tu instrumento musical favorito?",
+                "options": [
+                    {
+                        "text": "Guitarra",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Piano",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Violín",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Batería",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "text": "¿Prefieres bailar salsa o tango?",
+                "options": [
+                    {
+                        "text": "Salsa",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Tango",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "text": "¿Cuál es tu cocina favorita?",
+                "options": [
+                    {
+                        "text": "Italiana",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Mexicana",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Japonesa",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Francesa",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "text": "¿Prefieres comer en casa o en restaurantes?",
+                "options": [
+                    {
+                        "text": "En casa",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "En restaurantes",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "text": "¿Te gusta más la física teórica o experimental?",
+                "options": [
+                    {
+                        "text": "Teórica",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Experimental",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "text": "¿Te gustan más los compuestos orgánicos o inorgánicos?",
+                "options": [
+                    {
+                        "text": "Orgánicos",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Inorgánicos",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "text": "¿Te interesa más la biología molecular o la ecología?",
+                "options": [
+                    {
+                        "text": "Biología molecular",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Ecología",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "text": "¿Prefieres estudiar planetas o estrellas?",
+                "options": [
+                    {
+                        "text": "Planetas",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Estrellas",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "text": "¿Te interesa más la historia antigua o moderna?",
+                "options": [
+                    {
+                        "text": "Antigua",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Moderna",
+                        "nextQuestionId": null
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "text": "¿Prefieres la historia de tu país o la historia mundial?",
+                "options": [
+                    {
+                        "text": "De mi país",
+                        "nextQuestionId": null
+                    },
+                    {
+                        "text": "Mundial",
+                        "nextQuestionId": null
+                    }
+                ]
+            }
+        ]
+    }
+}

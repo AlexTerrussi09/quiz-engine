@@ -1,0 +1,102 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "text": "¿Cuál es tu color favorito?",
+            "options": [
+                {
+                    "text": "Rojo",
+                    "nextQuestionId": 2
+                },
+                {
+                    "text": "Azul",
+                    "nextQuestionId": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "¿Te gusta la naturaleza?",
+            "options": [
+                {
+                    "text": "Sí",
+                    "nextQuestionId": 4
+                },
+                {
+                    "text": "No",
+                    "nextQuestionId": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "¿Prefieres el mar o la montaña?",
+            "options": [
+                {
+                    "text": "Mar",
+                    "nextQuestionId": 6
+                },
+                {
+                    "text": "Montaña",
+                    "nextQuestionId": 7
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "¿Cuál es tu animal favorito?",
+            "options": [
+                {
+                    "text": "Perro",
+                    "nextQuestionId": null
+                },
+                {
+                    "text": "Gato",
+                    "nextQuestionId": null
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "¿Te gusta viajar?",
+            "options": [
+                {
+                    "text": "Sí",
+                    "nextQuestionId": null
+                },
+                {
+                    "text": "No",
+                    "nextQuestionId": null
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "text": "¿Te gusta nadar?",
+            "options": [
+                {
+                    "text": "Sí",
+                    "nextQuestionId": null
+                },
+                {
+                    "text": "No",
+                    "nextQuestionId": null
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "text": "¿Te gusta escalar?",
+            "options": [
+                {
+                    "text": "Sí",
+                    "nextQuestionId": null
+                },
+                {
+                    "text": "No",
+                    "nextQuestionId": null
+                }
+            ]
+        }
+    ]
+}

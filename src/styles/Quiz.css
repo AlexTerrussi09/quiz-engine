@@ -1,0 +1,19 @@
+.quiz{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.question-container {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.question-container.fade-in {
+    opacity: 1;
+}
+
+.question-container.fade-out {
+    opacity: 0;
+}

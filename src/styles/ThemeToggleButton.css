@@ -1,0 +1,29 @@
+.theme-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+    transition: 0.5s;
+  }
+  .theme-toggle-button.light{
+    background-color: #76c7c0;
+    color: white;
+  }
+  .theme-toggle-button.dark{
+    background-color: #b423af;
+    color: white;
+
+  }
+  
+  .theme-toggle-button.light:hover {
+    background-color: #5ba8a0;
+  }
+
+  .theme-toggle-button.dark:hover {
+    background-color: #8c0988;
+  }

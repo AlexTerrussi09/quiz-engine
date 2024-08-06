@@ -1,110 +1,171 @@
 {
     "quiz": {
-        "questions": [
+      "questions": [
+        {
+          "id": 1,
+          "text": "¿Cuál es tu color favorito?",
+          "type": "single",
+          "options": [
             {
-                "id": 1,
-                "text": "¿Cuál es tu color favorito?",
-                "type": "single",
-                "options": [
-                    {
-                        "text": "Rojo",
-                        "nextQuestionId": 2
-                    },
-                    {
-                        "text": "Azul",
-                        "nextQuestionId": 2
-                    },
-                    {
-                        "text": "Verde",
-                        "nextQuestionId": 2
-                    },
-                    {
-                        "text": "Amarillo",
-                        "nextQuestionId": 2
-                    }
-                ]
+              "text": "Rojo",
+              "nextQuestionId": 2
             },
             {
-                "id": 2,
-                "text": "¿Qué actividades te gustan? (Selecciona todas las que apliquen)",
-                "type": "multiple",
-                "options": [
-                    {
-                        "text": "Leer",
-                        "nextQuestionId": 3
-                    },
-                    {
-                        "text": "Deportes",
-                        "nextQuestionId": 3
-                    },
-                    {
-                        "text": "Viajar",
-                        "nextQuestionId": 3
-                    },
-                    {
-                        "text": "Cocinar",
-                        "nextQuestionId": 3
-                    }
-                ]
+              "text": "Azul",
+              "nextQuestionId": 3
             },
             {
-                "id": 3,
-                "text": "Describe tu pasatiempo favorito",
-                "type": "input",
-                "nextQuestionId": 4
+              "text": "Verde",
+              "nextQuestionId": 4
             },
             {
-                "id": 4,
-                "text": "¿Cuál es tu género de película favorito?",
-                "type": "single",
-                "options": [
-                    {
-                        "text": "Acción",
-                        "nextQuestionId": 5
-                    },
-                    {
-                        "text": "Comedia",
-                        "nextQuestionId": 5
-                    },
-                    {
-                        "text": "Drama",
-                        "nextQuestionId": 5
-                    },
-                    {
-                        "text": "Terror",
-                        "nextQuestionId": 5
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "text": "¿Qué idiomas hablas? (Selecciona todas las que apliquen)",
-                "type": "multiple",
-                "options": [
-                    {
-                        "text": "Inglés",
-                        "nextQuestionId": 6
-                    },
-                    {
-                        "text": "Español",
-                        "nextQuestionId": 6
-                    },
-                    {
-                        "text": "Francés",
-                        "nextQuestionId": 6
-                    },
-                    {
-                        "text": "Alemán",
-                        "nextQuestionId": 6
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "text": "¿Tienes algún comentario adicional?",
-                "type": "input",
-                "nextQuestionId": null
+              "text": "Amarillo",
+              "nextQuestionId": 5
             }
-        ]
+          ]
+        },
+        {
+          "id": 2,
+          "text": "¿Te gusta el color rojo por su intensidad?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Sí",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "No",
+              "nextQuestionId": 7
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "El azul es un color calmante. ¿Estás de acuerdo?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Sí",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "No",
+              "nextQuestionId": 7
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "¿Te gusta el verde porque representa la naturaleza?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Sí",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "No",
+              "nextQuestionId": 7
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "¿El amarillo te hace sentir feliz?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Sí",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "No",
+              "nextQuestionId": 7
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "¿Qué actividades te gustan? (Selecciona todas las que apliquen)",
+          "type": "multiple",
+          "options": [
+            {
+              "text": "Leer",
+              "nextQuestionId": 8
+            },
+            {
+              "text": "Deportes",
+              "nextQuestionId": 8
+            },
+            {
+              "text": "Viajar",
+              "nextQuestionId": 8
+            },
+            {
+              "text": "Cocinar",
+              "nextQuestionId": 8
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "Describe por qué no te gusta ese color",
+          "type": "input",
+          "nextQuestionId": 8
+        },
+        {
+          "id": 8,
+          "text": "¿Cuál es tu género de película favorito?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Acción",
+              "nextQuestionId": 9
+            },
+            {
+              "text": "Comedia",
+              "nextQuestionId": 9
+            },
+            {
+              "text": "Drama",
+              "nextQuestionId": 9
+            },
+            {
+              "text": "Terror",
+              "nextQuestionId": 9
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "¿Qué idiomas hablas? (Selecciona todas las que apliquen)",
+          "type": "multiple",
+          "options": [
+            {
+              "text": "Inglés",
+              "nextQuestionId": 10
+            },
+            {
+              "text": "Español",
+              "nextQuestionId": 10
+            },
+            {
+              "text": "Francés",
+              "nextQuestionId": 10
+            },
+            {
+              "text": "Alemán",
+              "nextQuestionId": 10
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "¿Tienes algún comentario adicional?",
+          "type": "input",
+          "nextQuestionId": null
+        }
+      ]
     }
-}
+  }
+  

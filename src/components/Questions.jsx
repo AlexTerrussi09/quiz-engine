@@ -1,17 +1,16 @@
 // src/components/Question.js
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Option from './Option';
 import "../styles/Questions.css"
+import "../styles/Options.css"
+import { ThemeContext } from '../context/ThemeContext';
 
 const Question = ({ question, onNextQuestion }) => {
+  const { theme } = useContext(ThemeContext);
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [inputValue, setInputValue] = useState('');
 
   const handleOptionClick = (option) => {
-    console.log(question)
-    if (!question) {
-      onNextQuestion(1)
-    }
     if (question.type === 'single') {
       onNextQuestion(option.nextQuestionId);
     } else if (question.type === 'multiple') {
@@ -33,11 +32,16 @@ const Question = ({ question, onNextQuestion }) => {
     }
   };
 
+  const handleReset = () => {
+    onNextQuestion(1);
+    setSelectedOptions([])
+  }
+
   return (
-    <div className="question">
+    <div className={`question ${theme}`}>
       {question ?
         <>
-          <h2>{question.text}</h2>
+          <h3>{question.text}</h3>
           {question.type === 'single' &&
             question.options.map((option, index) => (
               <Option
@@ -49,20 +53,21 @@ const Question = ({ question, onNextQuestion }) => {
 
           {question.type === 'multiple' &&
             question.options.map((option, index) => (
-              <div key={index} className="option">
+              <div key={index} className="custom-checkbox">
                 <input
+                  id={`checkbox-${index}`}
+                  className={`checkbox ${theme}`}
                   type="checkbox"
                   checked={selectedOptions.includes(option)}
                   onChange={() => handleOptionClick(option)}
                 />
-                {option.text}
+                <label htmlFor={`checkbox-${index}`} className={`label ${theme}`}>{option.text}</label>
               </div>
             ))}
 
           {question.type === 'input' && (
-            <div className='div-input'>
+            <div className="input-option">
               <textarea
-              className="input-option"
                 type="text"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
@@ -71,15 +76,13 @@ const Question = ({ question, onNextQuestion }) => {
           )}
 
           {question.type !== 'single' && (
-            <button onClick={handleSubmit}>Siguiente</button>
+            <button className={`optionButton ${theme}`} onClick={handleSubmit}>Continue</button>
           )}
         </>
         :
         <>
-          <h2>
-            Quiz Terminado
-          </h2>
-          <button className='optionButton' onClick={() => handleOptionClick({nextQuestionId: 1})}>Volver a empezar</button>
+          <h2>Quiz Terminado!</h2>
+          <button className={`optionButton ${theme}`} onClick={handleReset}>Volver a empezar</button>
         </>
       }
 

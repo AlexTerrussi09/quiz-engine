@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import ProgressBar from './ProgressBar';
 import Question from './Questions';
 import "../styles/Quiz.css"
+import ThemeToggleButton from './ThemeToggleButton';
+import { ThemeContext } from '../context/ThemeContext';
 
 export const Quiz = ({ data }) => {
+  const { theme } = useContext(ThemeContext);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
-  const [Results, setResults] = useState([])
 
   const totalQuestions = data.quiz.questions.length;
 
-  const handleNextQuestion = (nextQuestionId, QuestionId) => {
-    setResults([...Results, data.quiz.questions.find(d=>d.id === parseInt(QuestionId))])
-    console.log(Results)
+  const handleNextQuestion = (nextQuestionId) => {
     setFadeOut(true);
     setTimeout(() => {
       const nextQuestionIndex = data.quiz.questions.findIndex(
@@ -20,21 +20,26 @@ export const Quiz = ({ data }) => {
       );
       setCurrentQuestionIndex(nextQuestionIndex);
       setFadeOut(false);
-    }, 500); // Duración de la animación de salida
+    }, 800); // Duración de la animación de salida
   };
 
   const progress = data.quiz.questions[currentQuestionIndex] ? ((currentQuestionIndex + 1) / totalQuestions) * 100 : 100
-
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   return (
-    <div className="quiz">
+    <>
       <ProgressBar progress={progress} />
-      <div className={`question-container ${fadeOut ? 'fade-out' : 'fade-in'}`}>
-        <Question
-          question={data.quiz.questions[currentQuestionIndex]}
-          onNextQuestion={handleNextQuestion}
-          results={Results}
-        />
+      <div className="quiz">
+        <div className={`question-container ${fadeOut ? 'fade-out' : 'fade-in'}`}>
+          <Question
+            question={data.quiz.questions[currentQuestionIndex]}
+            onNextQuestion={handleNextQuestion}
+          />
+        </div>
+        <ThemeToggleButton />
       </div>
-    </div>
+    </>
+
   );
 }

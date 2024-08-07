@@ -30,7 +30,7 @@ Para iniciar el servidor de desarrollo, ejecuta:
 
 Con npm:
 
-    ```sh
+    ```
     npm start
     ```
 ## Cambio de tema

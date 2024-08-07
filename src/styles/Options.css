@@ -1,7 +1,8 @@
-.option{
+.option {
     width: 100%;
 }
-.optionButton{
+
+.optionButton {
     width: 100%;
     padding: 10px 15px;
     border-radius: 15px;
@@ -9,30 +10,44 @@
     transition: 0.5s;
 
 }
-.optionButton.dark{
+
+.optionButton.dark {
     border: 3px solid #b423af;
     background-color: #101217;
     color: white;
 }
-.optionButton.light{
+
+.optionButton.light {
     border: 3px solid #08827e;
     background-color: #fff;
     color: black;
 }
-.optionButton.selected{
-      border-color: #76c7c0;
-  animation: blink 0.2s ease-in-out 2;
+
+.optionButton.selected {
+    border-color: #76c7c0;
+    animation: blink 0.2s ease-in-out 2;
 }
-.optionButton.dark:hover{
+
+.optionButton.dark:hover {
     background-color: #19191a;
 }
-.optionButton.light:hover{
+
+.optionButton.light:hover {
     background-color: #08827e;
-    border-color:  #0b5959;
+    border-color: #0b5959;
     color: white;
 }
+
 @keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

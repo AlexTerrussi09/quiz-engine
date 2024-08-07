@@ -19,7 +19,7 @@ const Option = ({ option, onClick }) => {
   };
   return (
     <div className="option">
-      <button  className={`optionButton ${isSelected ? 'selected' : ''} ${theme}`} onClick={handleClick}>{option.text}</button>
+      <button className={`optionButton ${isSelected ? 'selected' : ''} ${theme}`} onClick={handleClick}>{option.text}</button>
     </div>
   );
 };

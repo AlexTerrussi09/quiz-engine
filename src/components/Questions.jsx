@@ -1,4 +1,3 @@
-// src/components/Question.js
 import React, { useContext, useState } from 'react';
 import Option from './Option';
 import "../styles/Questions.css"

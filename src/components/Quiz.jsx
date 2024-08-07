@@ -20,7 +20,7 @@ export const Quiz = ({ data }) => {
       );
       setCurrentQuestionIndex(nextQuestionIndex);
       setFadeOut(false);
-    }, 800); // Duración de la animación de salida
+    }, 800); 
   };
 
   const progress = data.quiz.questions[currentQuestionIndex] ? ((currentQuestionIndex + 1) / totalQuestions) * 100 : 100

@@ -29,10 +29,8 @@ Asegúrate de tener instalados los siguientes programas en tu máquina:
 Para iniciar el servidor de desarrollo, ejecuta:
 
 Con npm:
-
-    ```
     npm start
-    ```
+
 ## Cambio de tema
 La aplicación incluye un botón de cambio de tema en la esquina inferior derecha de la pantalla. Este botón alterna entre el modo claro y el modo oscuro.
 

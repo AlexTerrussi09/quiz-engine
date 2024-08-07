@@ -1,5 +1,6 @@
 import React from 'react';
 import data from './data/quiz-2.json';
+// import data from './data/quiz.json';
 import './styles/App.css';
 import { Quiz } from './components/Quiz';
 

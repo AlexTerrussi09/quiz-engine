@@ -1,102 +1,187 @@
 {
-    "questions": [
+    "quiz": {
+      "questions": [
         {
-            "id": 1,
-            "text": "¿Cuál es tu color favorito?",
-            "options": [
-                {
-                    "text": "Rojo",
-                    "nextQuestionId": 2
-                },
-                {
-                    "text": "Azul",
-                    "nextQuestionId": 3
-                }
-            ]
+          "id": 1,
+          "text": "¿Cuál es tu estación favorita?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Primavera",
+              "nextQuestionId": 2
+            },
+            {
+              "text": "Verano",
+              "nextQuestionId": 3
+            },
+            {
+              "text": "Otoño",
+              "nextQuestionId": 4
+            },
+            {
+              "text": "Invierno",
+              "nextQuestionId": 5
+            }
+          ]
         },
         {
-            "id": 2,
-            "text": "¿Te gusta la naturaleza?",
-            "options": [
-                {
-                    "text": "Sí",
-                    "nextQuestionId": 4
-                },
-                {
-                    "text": "No",
-                    "nextQuestionId": 5
-                }
-            ]
+          "id": 2,
+          "text": "¿Qué te gusta más de la primavera?",
+          "type": "multiple",
+          "options": [
+            {
+              "text": "Flores",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Clima templado",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Dias más largos",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Alergias",
+              "nextQuestionId": 6
+            }
+          ]
         },
         {
-            "id": 3,
-            "text": "¿Prefieres el mar o la montaña?",
-            "options": [
-                {
-                    "text": "Mar",
-                    "nextQuestionId": 6
-                },
-                {
-                    "text": "Montaña",
-                    "nextQuestionId": 7
-                }
-            ]
+          "id": 3,
+          "text": "¿Te gusta el verano por el sol o las vacaciones?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Sol",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Vacaciones",
+              "nextQuestionId": 6
+            }
+          ]
         },
         {
-            "id": 4,
-            "text": "¿Cuál es tu animal favorito?",
-            "options": [
-                {
-                    "text": "Perro",
-                    "nextQuestionId": null
-                },
-                {
-                    "text": "Gato",
-                    "nextQuestionId": null
-                }
-            ]
+          "id": 4,
+          "text": "¿Qué actividad disfrutas más en otoño?",
+          "type": "multiple",
+          "options": [
+            {
+              "text": "Caminar por parques",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Fotografía",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Cosecha de frutas",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Celebraciones de Halloween",
+              "nextQuestionId": 6
+            }
+          ]
         },
         {
-            "id": 5,
-            "text": "¿Te gusta viajar?",
-            "options": [
-                {
-                    "text": "Sí",
-                    "nextQuestionId": null
-                },
-                {
-                    "text": "No",
-                    "nextQuestionId": null
-                }
-            ]
+          "id": 5,
+          "text": "¿Qué te gusta hacer en invierno?",
+          "type": "multiple",
+          "options": [
+            {
+              "text": "Esquiar",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Quedarse en casa",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Celebrar las fiestas",
+              "nextQuestionId": 6
+            },
+            {
+              "text": "Tomar bebidas calientes",
+              "nextQuestionId": 6
+            }
+          ]
         },
         {
-            "id": 6,
-            "text": "¿Te gusta nadar?",
-            "options": [
-                {
-                    "text": "Sí",
-                    "nextQuestionId": null
-                },
-                {
-                    "text": "No",
-                    "nextQuestionId": null
-                }
-            ]
+          "id": 6,
+          "text": "¿Prefieres viajar solo o en grupo?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Solo",
+              "nextQuestionId": 7
+            },
+            {
+              "text": "En grupo",
+              "nextQuestionId": 8
+            }
+          ]
         },
         {
-            "id": 7,
-            "text": "¿Te gusta escalar?",
-            "options": [
-                {
-                    "text": "Sí",
-                    "nextQuestionId": null
-                },
-                {
-                    "text": "No",
-                    "nextQuestionId": null
-                }
-            ]
+          "id": 7,
+          "text": "¿Cuál es tu destino de viaje soñado?",
+          "type": "input",
+          "nextQuestionId": 9
+        },
+        {
+          "id": 8,
+          "text": "¿Qué tipo de actividades prefieres en un viaje grupal?",
+          "type": "multiple",
+          "options": [
+            {
+              "text": "Excursiones",
+              "nextQuestionId": 9
+            },
+            {
+              "text": "Visitas a museos",
+              "nextQuestionId": 9
+            },
+            {
+              "text": "Actividades al aire libre",
+              "nextQuestionId": 9
+            },
+            {
+              "text": "Relajación en la playa",
+              "nextQuestionId": 9
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "¿Qué prefieres para relajarte?",
+          "type": "single",
+          "options": [
+            {
+              "text": "Leer un libro",
+              "nextQuestionId": 10
+            },
+            {
+              "text": "Ver una película",
+              "nextQuestionId": 10
+            },
+            {
+              "text": "Meditar",
+              "nextQuestionId": 10
+            },
+            {
+              "text": "Salir a caminar",
+              "nextQuestionId": 10
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "¿Tienes alguna otra cosa que te gustaría compartir?",
+          "type": "input",
+          "nextQuestionId": null
         }
-    ]
-}
+      ]
+    }
+  }
+  
